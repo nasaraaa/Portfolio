@@ -21,7 +21,7 @@ function goToNextSlide() {
 }
 let intervalId = 0;
 
-// intervalId =setInterval(goToNextSlide,2000)
+intervalId =setInterval(goToNextSlide,5000)
 
 const slidee=document.querySelector(".trans");
 const html=document.getElementById("html");
@@ -38,3 +38,23 @@ window.addEventListener("scroll",()=>{
 		
 	}
 })
+
+const slides = document.querySelectorAll('.slid');
+  const buttons = document.querySelectorAll('.slider-button');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const slideNumber = parseInt(button.getAttribute('data-slide'));
+
+      slides.forEach(slide => {
+        slide.classList.remove('active');
+      });
+
+      buttons.forEach(btn => {
+        btn.classList.remove('active');
+      });
+
+      slides[slideNumber - 1].classList.add('active');
+      buttons[slideNumber - 1].classList.add('active');
+    });
+  });
