@@ -243,3 +243,66 @@ margin-bottom: 10px;
 .section2{
     margin-top: 80px;
 }
+
+/* ////// */
+.card1{
+	max-width: 260px;
+	width: 100%;
+	min-height: 320px;
+	background-color: #FAFAFA;
+	position: relative;
+}
+.zemodan,
+.shignit{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	transition: all 0.3s ease-in-out;
+}
+.card1:hover .zemodan{
+	opacity: 0;
+}
+.card1:hover .shignit{
+	opacity: 1;
+	background-color: #15263E;
+}
+.shignit{
+	opacity: 0;
+}
+.zemodan img{
+	width: 60px;
+}
+.zemodan p{
+	color:#222222;
+	font-size: 22px;
+}
+.shignit h4{
+	color:#FFFFFF ;
+	font-size: 22px;
+}
+.shignit p{
+	font-size: 14px;
+	color: #ECECEC;
+	opacity: 0.8;
+	text-align: center;
+	padding: 15px;
+}
+.card-wrappers{
+	display: flex;
+	flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.section3{
+    margin-top: 10%;
+}
+.top .shignit{
+	opacity: 2;
+	background-color: #15263E;
+}
