@@ -21,7 +21,7 @@ function goToNextSlide() {
 }
 let intervalId = 0;
 
-intervalId =setInterval(goToNextSlide,5000)
+// intervalId =setInterval(goToNextSlide,5000)
 
 const slidee=document.querySelector(".trans");
 const html=document.getElementById("html");
