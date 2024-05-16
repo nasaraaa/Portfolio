@@ -828,7 +828,6 @@ font-family: "Mulish", sans-serif;
     justify-content: center;
    }
    .end{
-        transform: translateX(-219px);
         margin-top: 20px;
    }
    .header1{
@@ -887,5 +886,66 @@ body{
 .inside-cub1 p{
     text-align: center;
 }
+
+}
+@media(max-width:425px){
+    .mediaa{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .number{
+        margin-right: 62px;
+    }
+    .mail{
+        margin-right: 25px;
+    }
+    .note{
+        width: 70%;
+    }
+    .slid.active{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .inside-con{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .half{
+        display: none;
+    }
+    .emtpy{
+        display: none;
+    }
+    .inside-cub{
+        text-align: center;
+    }
+    .emtpy1{
+        display: none;
+    }
+    .inside-cub1{
+        text-align: center;
+    }
+    .rosa-wrapper{
+        display: flex;
+        gap: 10px;
+    }
+    .last p{
+        text-align: center;
+    }
+    input{
+        height: 90px;
+    }
+    .none{
+        display: none;
+    }
+    .end {
+        margin-right: 80px;
+    }
+    .larg-input{
+        height: 50px;
+        width: 280px;
+    }
 
 }
