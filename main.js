@@ -58,3 +58,29 @@ const slides = document.querySelectorAll('.slid');
       buttons[slideNumber - 1].classList.add('active');
     });
   });
+
+
+
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var formData = new FormData(this);
+
+    fetch('https://borjomi.loremipsum.ge/api/send-message', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === 1) {
+            document.getElementById('successModal').style.display = 'flex';
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
+
+document.getElementsByClassName('close')[0].addEventListener('click', function() {
+    document.getElementById('successModal').style.display = 'none';
+});
