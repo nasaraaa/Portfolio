@@ -46,6 +46,7 @@ header{
     font-size: 20px;
     color: #212121;
     letter-spacing: 1.5px;
+    font-family: "Teachers", sans-serif; ;
 }
 .information h1{
     font-size: 35px;
@@ -53,10 +54,12 @@ header{
     letter-spacing: 1.5px;
     margin-bottom: 10px;
     margin-top: 5px;
+    font-family: "Teachers", sans-serif;
 }
 .information p{
     font-size: 15px;
     opacity: 0.7;
+    font-family: "Teachers", sans-serif;
 }
 .icons{
     margin-top: 20px;
@@ -96,6 +99,7 @@ header{
     font-size: 14px;
     color: #DAAE19;
     margin-bottom: 15px;
+    font-family: "Teachers", sans-serif;
 }
 .chng2{
     font-size: 15px;
@@ -103,6 +107,7 @@ header{
     width: 80%;
     line-height: 20px;
     opacity: 0.9;
+    font-family: "Teachers", sans-serif;
 }
 .name{
 	color: #222222;
@@ -177,11 +182,13 @@ header{
 	font-size: 13px;
 	color: #DFDFDF;
 	opacity: 0.8;
+    font-family: "Teachers", sans-serif;
 }
 .number1 h3{
 	font-size: 20px;
 	color: #FFFFFF;
     margin-bottom: 10px;
+    font-family: "Mulish", sans-serif;
 }
 .addres{
 	display: flex;
@@ -198,11 +205,13 @@ header{
 	font-size: 20px;
 	color: #FFFFFF;
     margin-bottom: 10px;
+    font-family: "Mulish", sans-serif;;
 }
 .addres1 p{
 	font-size: 13px;
 	color: #DFDFDF;
 	opacity: 0.8;
+    font-family: "Mulish", sans-serif;
 }
 .mail{
 	display: flex;
@@ -219,11 +228,13 @@ header{
 font-size: 20px;
 color: #FFFFFF;
 margin-bottom: 10px;
+font-family: "Mulish", sans-serif;
 }
 .maile1 p{
 	font-size: 13px;
 	color: #DFDFDF;
 	opacity: 0.8;
+    font-family: "Mulish", sans-serif;
 }
 .mediaa{
 	display: flex;
@@ -281,10 +292,12 @@ margin-bottom: 10px;
 .zemodan p{
 	color:#222222;
 	font-size: 22px;
+    font-family: "Mulish", sans-serif;
 }
 .shignit h4{
 	color:#FFFFFF ;
 	font-size: 22px;
+    font-family: "Mulish", sans-serif;
 }
 .shignit p{
 	font-size: 14px;
@@ -292,6 +305,7 @@ margin-bottom: 10px;
 	opacity: 0.8;
 	text-align: center;
 	padding: 15px;
+    font-family: "Mulish", sans-serif;
 }
 .card-wrappers{
 	display: flex;
@@ -414,6 +428,7 @@ margin-bottom: 10px;
 	opacity: 0.8;
     margin-top: 9px;
     margin-bottom: 5px;
+    font-family: "Mulish", sans-serif;
 }
  .inside-box span{
 	font-size: 21px;
@@ -478,6 +493,7 @@ margin-bottom: 10px;
     font-size: 60px;
     color: #2E2E2E;
     margin-bottom: 30px;
+    font-family: "Teachers", sans-serif; ;
 }
 .first-box{
     max-width: 700px;
@@ -509,16 +525,19 @@ margin-bottom: 10px;
 .inside-cub span{
     color: #888888;
     font-size: 13px;
+    font-family: "Teachers", sans-serif; ;
 }
 .inside-cub h2{
     color: #161616;
     font-size: 30px;
+    font-family: "Teachers", sans-serif; ;
 }
 .inside-cub p{
     color:#494949;
     line-height:25px;
     width: 90%;
     font-size: 15px;
+    font-family: "Teachers", sans-serif; ;
 }
 .emtpy{
     max-width: 800px;
@@ -570,15 +589,18 @@ margin-bottom: 10px;
 .inside-cub1 span{
     color: #888888;
     font-size: 13px;
+    font-family: "Teachers", sans-serif; ;
 }
 .inside-cub1 h2{
     color:#161616 ;
     font-size: 30px;
+    font-family: "Teachers", sans-serif; ;
 }
 .inside-cub1 p{
     color: #494949;
     line-height:25px;
     font-size: 15px;
+    font-family: "Teachers", sans-serif; ;
 }
 
 
@@ -787,4 +809,83 @@ margin-bottom: 10px;
 .last p{
     color: #A0A8B7;
     font-size: 17px;
+}
+
+
+@media(max-width:768px){
+   .header1{
+    background-color: white;
+   }
+   .header-flex{
+    display: flex;
+    flex-direction: column;
+   }
+   .information{
+    text-align: center;
+   }
+   .icons{
+    display: flex;
+    justify-content: center;
+   }
+   .end{
+        transform: translateX(-219px);
+        margin-top: 20px;
+   }
+   .header1{
+    display: flex;
+   }
+   .wraperr{
+    display: flex;
+    flex-direction: column;
+   }
+   .about-me{
+    text-align: center;
+   }
+   .chng2{
+    margin-left: 26px;
+   }
+   .Bar{
+    margin-top: 10px;
+   }
+   .slid.active{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .inside-con i{
+    display: none;
+   }
+   .note{
+    text-align: center;
+   }
+   .slide img {
+    max-width: calc(100% - 30px);
+}
+.Projects-wrraper{
+    display: flex;
+    gap: inherit;
+}
+.section4{
+    margin-left: 20px;
+}
+body{
+    margin-left: 15px;
+}
+/* .box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.logo-flex{
+    justify-content: space-around;
+}
+.inside-cub p{
+    text-align: center;
+}
+.inside-cub1 p{
+    text-align: center;
+}
+
 }
